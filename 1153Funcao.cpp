@@ -7,7 +7,6 @@ int fat(int N){
 		return 1;
 	}
 	else{
-		
 		return N*fat(N-1);
 	}
 }
